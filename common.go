@@ -12,7 +12,7 @@ import (
 	"crypto/x509"
 	"errors"
 	"fmt"
-	"internal/cpu"
+	"github.com/icodeface/tls/internal/cpu"
 	"io"
 	"math/big"
 	"net"

@@ -9,9 +9,9 @@ import (
 	"crypto/hmac"
 	"errors"
 	"hash"
-	"internal/x/crypto/cryptobyte"
-	"internal/x/crypto/curve25519"
-	"internal/x/crypto/hkdf"
+	"github.com/icodeface/tls/internal/x/crypto/cryptobyte"
+	"github.com/icodeface/tls/internal/x/crypto/curve25519"
+	"github.com/icodeface/tls/internal/x/crypto/hkdf"
 	"io"
 	"math/big"
 )
