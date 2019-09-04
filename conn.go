@@ -1091,25 +1091,27 @@ func (c *Conn) Write(b []byte) (int, error) {
 		return 0, errShutdown
 	}
 
-	// SSL 3.0 and TLS 1.0 are susceptible to a chosen-plaintext
-	// attack when using block mode ciphers due to predictable IVs.
-	// This can be prevented by splitting each Application Data
-	// record into two records, effectively randomizing the IV.
-	//
-	// https://www.openssl.org/~bodo/tls-cbc.txt
-	// https://bugzilla.mozilla.org/show_bug.cgi?id=665814
-	// https://www.imperialviolet.org/2012/01/15/beastfollowup.html
+	// disable application data splitting to be compatible with some old-age application
 
+	//// SSL 3.0 and TLS 1.0 are susceptible to a chosen-plaintext
+	//// attack when using block mode ciphers due to predictable IVs.
+	//// This can be prevented by splitting each Application Data
+	//// record into two records, effectively randomizing the IV.
+	////
+	//// https://www.openssl.org/~bodo/tls-cbc.txt
+	//// https://bugzilla.mozilla.org/show_bug.cgi?id=665814
+	//// https://www.imperialviolet.org/2012/01/15/beastfollowup.html
+	//
 	var m int
-	if len(b) > 1 && c.vers <= VersionTLS10 {
-		if _, ok := c.out.cipher.(cipher.BlockMode); ok {
-			n, err := c.writeRecordLocked(recordTypeApplicationData, b[:1])
-			if err != nil {
-				return n, c.out.setErrorLocked(err)
-			}
-			m, b = 1, b[1:]
-		}
-	}
+	//if len(b) > 1 && c.vers <= VersionTLS10 {
+	//	if _, ok := c.out.cipher.(cipher.BlockMode); ok {
+	//		n, err := c.writeRecordLocked(recordTypeApplicationData, b[:1])
+	//		if err != nil {
+	//			return n, c.out.setErrorLocked(err)
+	//		}
+	//		m, b = 1, b[1:]
+	//	}
+	//}
 
 	n, err := c.writeRecordLocked(recordTypeApplicationData, b)
 	return n + m, c.out.setErrorLocked(err)
