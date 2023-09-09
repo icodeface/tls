@@ -5,7 +5,7 @@
 package poll_test
 
 import (
-	"github.com/icodeface/tls/internal/poll"
+	"github.com/tarimoe/tls/internal/poll"
 	"reflect"
 	"testing"
 )

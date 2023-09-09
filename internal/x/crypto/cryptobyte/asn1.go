@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/icodeface/tls/internal/x/crypto/cryptobyte/asn1"
+	"github.com/tarimoe/tls/internal/x/crypto/cryptobyte/asn1"
 )
 
 // This file contains ASN.1-related methods for String and Builder.

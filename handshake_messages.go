@@ -6,7 +6,7 @@ package tls
 
 import (
 	"fmt"
-	"github.com/icodeface/tls/internal/x/crypto/cryptobyte"
+	"github.com/tarimoe/tls/internal/x/crypto/cryptobyte"
 	"strings"
 )
 

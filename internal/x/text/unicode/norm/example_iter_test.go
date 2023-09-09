@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"github.com/icodeface/tls/internal/x/text/unicode/norm"
+	"github.com/tarimoe/tls/internal/x/text/unicode/norm"
 )
 
 // EqualSimple uses a norm.Iter to compare two non-normalized

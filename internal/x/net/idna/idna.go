@@ -20,9 +20,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/icodeface/tls/internal/x/text/secure/bidirule"
-	"github.com/icodeface/tls/internal/x/text/unicode/bidi"
-	"github.com/icodeface/tls/internal/x/text/unicode/norm"
+	"github.com/tarimoe/tls/internal/x/text/secure/bidirule"
+	"github.com/tarimoe/tls/internal/x/text/unicode/bidi"
+	"github.com/tarimoe/tls/internal/x/text/unicode/norm"
 )
 
 // NOTE: Unlike common practice in Go APIs, the functions will return a

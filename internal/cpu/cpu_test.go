@@ -5,8 +5,7 @@
 package cpu_test
 
 import (
-	. "github.com/icodeface/tls/internal/cpu"
-	"github.com/icodeface/tls/internal/testenv"
+	"github.com/tarimoe/tls/internal/testenv"
 	"os"
 	"os/exec"
 	"runtime"

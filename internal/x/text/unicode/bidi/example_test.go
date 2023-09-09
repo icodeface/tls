@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/icodeface/tls/internal/x/text/bidi"
+	"github.com/tarimoe/tls/internal/x/text/bidi"
 )
 
 func foo() {

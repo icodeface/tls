@@ -12,7 +12,7 @@ import (
 	"crypto/sha256"
 	"crypto/subtle"
 	"errors"
-	"github.com/icodeface/tls/internal/x/crypto/cryptobyte"
+	"github.com/tarimoe/tls/internal/x/crypto/cryptobyte"
 	"io"
 )
 

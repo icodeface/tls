@@ -10,7 +10,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/icodeface/tls/internal/testenv"
+	"github.com/tarimoe/tls/internal/testenv"
 	"io"
 	"io/ioutil"
 	"math"

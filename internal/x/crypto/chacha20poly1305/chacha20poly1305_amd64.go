@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build go1.7 && amd64 && !gccgo && !appengine
 // +build go1.7,amd64,!gccgo,!appengine
 
 package chacha20poly1305
@@ -9,7 +10,7 @@ package chacha20poly1305
 import (
 	"encoding/binary"
 
-	"github.com/icodeface/tls/internal/cpu"
+	"github.com/tarimoe/tls/internal/cpu"
 )
 
 //go:noescape

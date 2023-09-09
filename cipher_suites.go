@@ -14,8 +14,8 @@ import (
 	"crypto/sha1"
 	"crypto/sha256"
 	"crypto/x509"
+	"github.com/tarimoe/tls/internal/x/crypto/chacha20poly1305"
 	"hash"
-	"github.com/icodeface/tls/internal/x/crypto/chacha20poly1305"
 )
 
 // a keyAgreement implements the client and server side of a TLS key agreement

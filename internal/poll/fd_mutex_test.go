@@ -5,7 +5,6 @@
 package poll_test
 
 import (
-	. "github.com/icodeface/tls/internal/poll"
 	"math/rand"
 	"runtime"
 	"strings"

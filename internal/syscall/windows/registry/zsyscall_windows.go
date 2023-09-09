@@ -3,7 +3,7 @@
 package registry
 
 import (
-	"github.com/icodeface/tls/internal/syscall/windows/sysdll"
+	"github.com/tarimoe/tls/internal/syscall/windows/sysdll"
 	"syscall"
 	"unsafe"
 )

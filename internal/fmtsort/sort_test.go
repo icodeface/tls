@@ -6,7 +6,7 @@ package fmtsort_test
 
 import (
 	"fmt"
-	"github.com/icodeface/tls/internal/fmtsort"
+	"github.com/tarimoe/tls/internal/fmtsort"
 	"math"
 	"reflect"
 	"strings"

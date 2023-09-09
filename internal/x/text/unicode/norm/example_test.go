@@ -9,7 +9,7 @@ package norm_test
 import (
 	"fmt"
 
-	"github.com/icodeface/tls/internal/x/text/unicode/norm"
+	"github.com/tarimoe/tls/internal/x/text/unicode/norm"
 )
 
 func ExampleForm_NextBoundary() {

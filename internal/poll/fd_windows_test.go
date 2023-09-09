@@ -6,7 +6,7 @@ package poll_test
 
 import (
 	"fmt"
-	"github.com/icodeface/tls/internal/poll"
+	"github.com/tarimoe/tls/internal/poll"
 	"os"
 	"sync"
 	"syscall"

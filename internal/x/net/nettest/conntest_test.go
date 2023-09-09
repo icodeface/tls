@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build go1.8
 // +build go1.8
 
 package nettest
@@ -12,7 +13,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/icodeface/tls/internal/x/net/internal/nettest"
+	"github.com/tarimoe/tls/internal/x/net/internal/nettest"
 )
 
 func TestTestConn(t *testing.T) {
