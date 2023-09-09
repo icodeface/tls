@@ -4,7 +4,7 @@
 
 package bytealg
 
-import "github.com/tarimoe/tls/internal/cpu"
+import "github.com/icodeface/tls/internal/cpu"
 
 const MaxBruteForce = 64
 

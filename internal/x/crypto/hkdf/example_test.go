@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/tarimoe/tls/internal/x/crypto/hkdf"
+	"github.com/icodeface/tls/internal/x/crypto/hkdf"
 )
 
 // Usage example that expands one master secret into three other

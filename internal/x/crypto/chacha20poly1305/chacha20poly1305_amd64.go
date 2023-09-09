@@ -10,7 +10,7 @@ package chacha20poly1305
 import (
 	"encoding/binary"
 
-	"github.com/tarimoe/tls/internal/cpu"
+	"github.com/icodeface/tls/internal/cpu"
 )
 
 //go:noescape

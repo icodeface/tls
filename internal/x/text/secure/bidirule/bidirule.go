@@ -14,8 +14,8 @@ import (
 	"errors"
 	"unicode/utf8"
 
-	"github.com/tarimoe/tls/internal/x/text/transform"
-	"github.com/tarimoe/tls/internal/x/text/unicode/bidi"
+	"github.com/icodeface/tls/internal/x/text/transform"
+	"github.com/icodeface/tls/internal/x/text/unicode/bidi"
 )
 
 // This file contains an implementation of RFC 5893: Right-to-Left Scripts for

@@ -9,7 +9,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/tarimoe/tls/internal/x/net/dns/dnsmessage"
+	"github.com/icodeface/tls/internal/x/net/dns/dnsmessage"
 )
 
 func mustNewName(name string) dnsmessage.Name {

@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tarimoe/tls/internal/x/crypto/cryptobyte/asn1"
+	"github.com/icodeface/tls/internal/x/crypto/cryptobyte/asn1"
 )
 
 type readASN1Test struct {

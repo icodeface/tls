@@ -19,7 +19,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/tarimoe/tls/internal/x/net/idna"
+	"github.com/icodeface/tls/internal/x/net/idna"
 )
 
 // Config holds configuration for HTTP proxy settings. See

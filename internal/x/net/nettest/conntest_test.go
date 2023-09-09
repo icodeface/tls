@@ -13,7 +13,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/tarimoe/tls/internal/x/net/internal/nettest"
+	"github.com/icodeface/tls/internal/x/net/internal/nettest"
 )
 
 func TestTestConn(t *testing.T) {

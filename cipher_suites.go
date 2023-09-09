@@ -14,7 +14,7 @@ import (
 	"crypto/sha1"
 	"crypto/sha256"
 	"crypto/x509"
-	"github.com/tarimoe/tls/internal/x/crypto/chacha20poly1305"
+	"github.com/icodeface/tls/internal/x/crypto/chacha20poly1305"
 	"hash"
 )
 

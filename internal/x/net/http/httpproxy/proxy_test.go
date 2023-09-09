@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tarimoe/tls/internal/x/net/http/httpproxy"
+	"github.com/icodeface/tls/internal/x/net/http/httpproxy"
 )
 
 // setHelper calls t.Helper() for Go 1.9+ (see go19_test.go) and does nothing otherwise.

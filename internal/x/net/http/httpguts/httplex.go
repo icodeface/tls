@@ -9,7 +9,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/tarimoe/tls/internal/x/net/idna"
+	"github.com/icodeface/tls/internal/x/net/idna"
 )
 
 var isTokenTable = [127]bool{

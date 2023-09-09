@@ -9,7 +9,7 @@ package norm
 import (
 	"unicode/utf8"
 
-	"github.com/tarimoe/tls/internal/x/text/transform"
+	"github.com/icodeface/tls/internal/x/text/transform"
 )
 
 // Reset implements the Reset method of the transform.Transformer interface.

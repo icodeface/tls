@@ -9,7 +9,7 @@ package windows_test
 
 import (
 	"fmt"
-	"github.com/tarimoe/tls/internal/syscall/windows"
+	"github.com/icodeface/tls/internal/syscall/windows"
 	"os"
 	"os/exec"
 	"syscall"

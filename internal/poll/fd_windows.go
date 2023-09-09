@@ -6,8 +6,8 @@ package poll
 
 import (
 	"errors"
-	"github.com/tarimoe/tls/internal/race"
-	"github.com/tarimoe/tls/internal/syscall/windows"
+	"github.com/icodeface/tls/internal/race"
+	"github.com/icodeface/tls/internal/syscall/windows"
 	"io"
 	"runtime"
 	"sync"

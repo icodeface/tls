@@ -15,7 +15,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/tarimoe/tls/internal/syscall/windows/registry"
+	"github.com/icodeface/tls/internal/syscall/windows/registry"
 )
 
 func randKeyName(prefix string) string {

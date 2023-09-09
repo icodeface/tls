@@ -5,7 +5,7 @@
 package bytealg
 
 import (
-	"github.com/tarimoe/tls/internal/cpu"
+	"github.com/icodeface/tls/internal/cpu"
 	"unsafe"
 )
 

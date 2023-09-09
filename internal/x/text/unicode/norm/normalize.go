@@ -12,7 +12,7 @@ package norm
 import (
 	"unicode/utf8"
 
-	"github.com/tarimoe/tls/internal/x/text/transform"
+	"github.com/icodeface/tls/internal/x/text/transform"
 )
 
 // A Form denotes a canonical representation of Unicode code points.
