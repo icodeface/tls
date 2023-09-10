@@ -8,10 +8,10 @@ import (
 	"crypto/elliptic"
 	"crypto/hmac"
 	"errors"
-	"hash"
 	"github.com/icodeface/tls/internal/x/crypto/cryptobyte"
 	"github.com/icodeface/tls/internal/x/crypto/curve25519"
 	"github.com/icodeface/tls/internal/x/crypto/hkdf"
+	"hash"
 	"io"
 	"math/big"
 )

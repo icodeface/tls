@@ -6,7 +6,6 @@ package cpu_test
 
 import (
 	"errors"
-	. "github.com/icodeface/tls/internal/cpu"
 	"io/ioutil"
 	"regexp"
 	"testing"
